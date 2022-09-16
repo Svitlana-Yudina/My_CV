@@ -2,7 +2,18 @@ body {
 margin: 0;
 }
 header {
-  padding: 20px;
-  /* border: 2px solid lightcoral; */
+  padding: 1px 20px;
   background-color: lightcoral;
 }
+img {
+  margin: 5px;
+  width: 10em;
+  border: 1px solid lightcoral;
+  border-radius: 5em;
+  float: right;
+}
+/* .photo {
+border: 1px solid;
+border-radius: 150px;
+  
+} */
