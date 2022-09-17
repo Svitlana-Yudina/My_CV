@@ -9,8 +9,8 @@ img {
   margin: 5px;
   width: 10em;
   border: 1px solid lightcoral;
-  border-radius: 5em;
-  float: right;
+  border-radius: 0 5em;
+  float: left;
 }
 /* .photo {
 border: 1px solid;
