@@ -3,11 +3,10 @@ margin: 0;
 font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
+font-size: 1rem;
 line-height: 150%;
 }
 .head {
-  /* display: flex; */
   padding: 30px;
   background-color: lightcoral;
   color: whitesmoke;
@@ -16,15 +15,15 @@ line-height: 150%;
   margin: 0 0 8px 0;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 37px;
+  font-size: 2em;
+  line-height: 1em;
 }
 .position {
   margin: 0 0 8px 0;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 15px;
+  font-size: 1.5em;
+  line-height: 1em;
 }
 .about_me {
   margin: 0;
