@@ -3,11 +3,11 @@ margin: 0;
 font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: 400;
-font-size: 1.3vw;
-line-height: 150%;
+font-size: calc(8px + 0.7vw);
+line-height: 120%;
 }
 .head {
-  padding: 3vw;
+  padding: 2rem;
   background-color: lightcoral;
   color: whitesmoke;
 }
@@ -15,15 +15,15 @@ line-height: 150%;
   margin: 0 0 8px 0;
   font-style: normal;
   font-weight: 500;
-  font-size: 3vw;
+  font-size: 2em;
   line-height: 100%;
 }
 .position {
   margin: 0 0 8px 0;
   font-style: normal;
   font-weight: 500;
-  font-size: 2vw;
-  line-height: 50%;
+  font-size: 1.5em;
+  line-height: 100%;
 }
 .about_me {
   margin: 0;
@@ -35,8 +35,3 @@ line-height: 150%;
   border-radius: 0 50%;
   float: left;
 }
-/* .photo {
-border: 1px solid;
-border-radius: 150px;
-  
-} */
