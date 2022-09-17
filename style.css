@@ -1,15 +1,26 @@
 body {
 margin: 0;
+font-family: 'Roboto Slab', serif;
 }
-header {
-  padding: 1px 20px;
+.head {
+  padding: 20px;
   background-color: lightcoral;
+  color: whitesmoke;
 }
-img {
-  margin: 5px;
-  width: 10em;
+.name {
+  margin: 0 0 8px 0;
+}
+.position {
+  margin: 0 0 8px 0;
+}
+.about {
+  margin: 0;
+}
+.my_photo {
+  margin: 0 20px 0 0;
+  width: 7em;
   border: 1px solid lightcoral;
-  border-radius: 0 5em;
+  border-radius: 0 3.5em;
   float: left;
 }
 /* .photo {
