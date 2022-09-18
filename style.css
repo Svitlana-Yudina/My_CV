@@ -6,6 +6,7 @@ font-weight: 400;
 font-size: calc(10px + 0.5vw);
 line-height: 120%;
 }
+/* #region about */
 .head {
   padding: 2em;
   background-color: lightcoral;
@@ -34,4 +35,19 @@ line-height: 120%;
   height: 10em;
   border-radius: 0 50%;
   float: left;
+}
+/* #endregion */
+
+.main {
+  padding: 0 4em;
+}
+.contacts {
+  padding: 1em 0;
+  /* display: flex  ;
+  justify-content: space-between; */
+  text-align-last: justify;
+}
+.contacts a {
+  color: black;
+  text-decoration: none;
 }
