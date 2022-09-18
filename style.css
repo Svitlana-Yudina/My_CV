@@ -57,4 +57,5 @@ line-height: 120%;
 }
 .contacts a:active {
   box-shadow: none;
+  color: blue;
 }
