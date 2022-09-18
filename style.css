@@ -39,7 +39,7 @@ line-height: 120%;
 /* #endregion */
 
 .main {
-  padding: 0 4em;
+  padding: 0 2em;
 }
 .contacts {
   padding: 1em 0;
@@ -48,11 +48,11 @@ line-height: 120%;
   text-align-last: justify;
 }
 .contacts a {
-  padding: 5px;
+  padding: 4px;
   color: black;
   text-decoration: none;
   /* border: 4px double; */
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: 10px 5px 5px dimgray;
 }
 .contacts a:active {
