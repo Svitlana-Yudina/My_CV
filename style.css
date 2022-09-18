@@ -43,6 +43,8 @@ line-height: 120%;
 }
 .contacts {
   padding: 1em 0;
+  max-width: 80vw;
+  min-width: max-content;
     /* display: flex  ;
   justify-content: space-between; */
   text-align-last: justify;
