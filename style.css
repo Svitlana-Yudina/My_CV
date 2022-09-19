@@ -1,27 +1,33 @@
 body {
-margin: 0;
 font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: 400;
 font-size: calc(10px + 0.5vw);
 line-height: 120%;
+background-color: gray;
+}
+.page {
+  background-color: white;
+  min-width: 320px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 /* #region about */
 .head {
-  padding: 2em;
+  margin: 0;
+  padding: 2%;
   background-color: lightcoral;
   color: whitesmoke;
 }
 .name {
-  margin: 0 0 0.3em 0;
+  margin: 0 0 2% 0;
   font-style: normal;
   font-weight: 500;
   font-size: 2em;
   line-height: 100%;
 }
 .position {
-  margin: 0 0 0.3em 0;
-  font-style: normal;
+  margin: 0 0 2% 0;
   font-weight: 500;
   font-size: 1.5em;
   line-height: 100%;
@@ -30,7 +36,7 @@ line-height: 120%;
   margin: 0;
 }
 .my_photo {
-  margin: 0 2em 0 0;
+  margin: 0 2% 0 0;
   width: 10em;
   height: 10em;
   border-radius: 0 50%;
@@ -39,54 +45,52 @@ line-height: 120%;
 /* #endregion */
 
 .main {
-  padding: 0 2em;
+  padding: 0 3%;
 }
 .contacts {
-  padding: 1em 0;
-  max-width: 80vw;
+  display: flex  ;
+  justify-content: space-between;
+  padding: 2% 0;
   min-width: max-content;
-    /* display: flex  ;
-  justify-content: space-between; */
-  text-align-last: justify;
 }
 .contacts a {
   padding: 4px;
-  color: black;
   text-decoration: none;
-  /* border: 4px double; */
+  color: rgb(49, 46, 46);
   border-radius: 6px;
-  box-shadow: 8px 4px 5px dimgray;
+  box-shadow: 6px 3px 3px dimgray;
 }
 .contacts a:active {
   box-shadow: none;
   color: blue;
 }
-.resume {
+.info {
+  border-top: 1px solid gray;
+  padding: 4% 0 0 0;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid gray;
-  /* padding: 2vw; */
 }
-.resume .title {
+.title {
   margin: 0;
-  padding: 2vw;
   color: rgb(243, 86, 86);
   text-shadow: -1px -1px 1px black;
 }
- .resume .about {
-  margin: 0;
-  width: 60vw;
+ .description {
+  width: 65%;
   color: rgb(49, 46, 46);
 }
-.job {
-  margin: 2vw 0;
-  padding-left: 8px;
+.details {
   border-left: 1px dashed gray;
+  padding-left: 8px;
+  margin-bottom: 4%;
+}
+.details h3 {
+  margin: 0;
 }
 .skills {
   display: flex;
   justify-content: space-between;
 }
-.skills .job {
-  width: 30vw;
+.skills .details {
+  width: 50%;
 }
